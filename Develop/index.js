@@ -34,7 +34,7 @@ const questions = () =>{
         },
         {
             type: 'input',
-            name: 'Installation',
+            name: 'installation',
             message: 'Provide a description of the installtion process (Required)',
             validate: installtionInput => {
                 if (installtionInput){
@@ -47,7 +47,7 @@ const questions = () =>{
         },
         {
             type: 'input',
-            name: 'Usage',
+            name: 'usage',
             message: 'Provide a description of how to use your application (Required)',
             validate: usageInput => {
                 if (usageInput){
@@ -60,7 +60,7 @@ const questions = () =>{
         },
         {
             type: 'input',
-            name: 'Contributing',
+            name: 'contributing',
             message: 'Provide guidelines for others to contribute to your application (Required)',
             validate: contributionInput => {
                 if (contributionInput){
@@ -73,7 +73,7 @@ const questions = () =>{
         },
         {
             type: 'input',
-            name: 'Tests',
+            name: 'tests',
             message: 'Provide guidelines for how to run the test scripts (Required)',
             validate: testInput => {
                 if (testInput){
@@ -86,7 +86,7 @@ const questions = () =>{
         },
         {
             type: 'input',
-            name: 'Github',
+            name: 'github',
             message: 'What is your github username? (Required)',
             validate: githubInput => {
                 if (githubInput){
@@ -96,6 +96,13 @@ const questions = () =>{
                     return false;
                 }
             }
+        },
+        {
+            type: 'list',
+            name: 'license',
+            message: 'Do you have any licenses to include? (Required)',
+            choices: 
+                ['None', 'Apache','Boost', 'IBM', 'MIT']
         }
 
     ])
