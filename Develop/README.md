@@ -1,26 +1,23 @@
-# title
+# ReadMe-Generator
   ## Description
-  description
+  An application to generate a README.md file for applications
 
   ## Installation
-  installation
+  1
 
   ## Usage
-  how to use
+  Install npm
 
   ## Contributing
-  others to contribute
+  1
 
   ## Tests
-  test scripts
-
-  ## License
+  1
 
   
-  This project utilizes these license:
-  IBM
   
-  [![License](https://img.shields.io/badge/License-IBM-blue.svg)](https://opensource.org/licenses/IPL-1.0)
 
   
-  github
+
+  
+  dr-50
