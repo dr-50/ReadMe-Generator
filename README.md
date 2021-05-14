@@ -1,3 +1,14 @@
-# Professional README Generator Starter Code
+# ReadMe-Generator
+  ## Description
+  An application to generate a README.md file for applications
 
-[How to create a Professional README](./readme-guide.md)
+  ## Built with
+  * Node
+  * JavaScript
+
+  ## Usage
+  Install npm
+  
+  ## Created by:
+  Devon Ross
+  github username: dr-50
