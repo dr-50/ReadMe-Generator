@@ -1,12 +1,18 @@
-# ReadMe-Generator
+# 1
   ## Description
-  An application to generate a README.md file for applications
+  1
+
+  # Table of Contents
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [Contributing](#contributing)
+  4. [Tests](#tests)
 
   ## Installation
   1
 
   ## Usage
-  Install npm
+  1
 
   ## Contributing
   1
@@ -20,4 +26,4 @@
   
 
   
-  dr-50
+  1

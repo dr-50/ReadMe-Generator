@@ -39,9 +39,17 @@ return '';
 }
 // A function to generate markdown for README
 function generateMarkdown(data) {
+  if (renderLicenseSection(data.license)!==''){
   return `# ${data.projectName}
   ## Description
   ${data.projectDesc}
+
+  # Table of Contents
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [Contributing](#contributing)
+  4. [Tests](#tests)
+  5. [License](#license)
 
   ## Installation
   ${data.installation}
@@ -63,6 +71,38 @@ function generateMarkdown(data) {
   
   ${data.github}
 `;
+}else{
+  return `# ${data.projectName}
+  ## Description
+  ${data.projectDesc}
+
+  # Table of Contents
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [Contributing](#contributing)
+  4. [Tests](#tests)
+
+  ## Installation
+  ${data.installation}
+
+  ## Usage
+  ${data.usage}
+
+  ## Contributing
+  ${data.contributing}
+
+  ## Tests
+  ${data.tests}
+
+  ${renderLicenseSection(data.license)}
+  ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
+
+  
+
+  
+  ${data.github}
+`;
+}
 }
 
 module.exports = generateMarkdown;
