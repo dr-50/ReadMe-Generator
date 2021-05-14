@@ -7,8 +7,12 @@
   * JavaScript
 
   ## Usage
-  Install npm
+  Install inquirer
+
+  https://www.npmjs.com/
+  
   
   ## Created by:
   Devon Ross
+
   github username: dr-50
