@@ -1,6 +1,6 @@
-# 1
+# ReadMe-Generator
   ## Description
-  1
+  Project description is here
 
   # Table of Contents
   1. [Installation](#installation)
@@ -9,16 +9,16 @@
   4. [Tests](#tests)
 
   ## Installation
-  1
+  Description of the installation process to run the application is here
 
   ## Usage
-  1
+  Description of how to use the application is here
 
   ## Contributing
-  1
+  Guidelines for others to contribut to the application is here
 
   ## Tests
-  1
+  Guidelines for how to run the test scripts is here
 
   
   
@@ -26,4 +26,4 @@
   
 
   
-  1
+  dr-50
